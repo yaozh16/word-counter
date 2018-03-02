@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle word-counter",
+        "command": "word-counter:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "word-counter",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "word-counter:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
