@@ -1,11 +1,13 @@
 {
   "name": "word-counter",
   "main": "./lib/word-counter",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A short description of your package",
-  "activationHooks": ["language-javascript:grammar-used", "language-coffee-script:grammar-used"],
-  "keywords": [
+  "activationHooks": [
+    "language-javascript:grammar-used",
+    "language-coffee-script:grammar-used"
   ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "word-counter:toggle"
   },
@@ -14,6 +16,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
